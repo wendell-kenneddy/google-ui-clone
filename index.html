@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="creator" content="Wendell Kenneddy" />
+  <meta name="description"
+    content="Um UI Clone da página de pesquisa do Google." />
+  <meta property="og:title" content="Google UI Clone" />
+  <meta property="og:description"
+    content="Um UI Clone da página de pesquisa do Google." />
+  <meta property="og:site_name" content="Google UI Clone">
+  <meta property="og:locale" content="pt-BR" />
+  <meta property="og:image" content="./assets/images/og-preview.png" />
+  <meta name="twitter:title" content="Google UI Clone" />
+  <meta name="twitter:description"
+    content="Um UI Clone da página de pesquisa do Google." />
+  <meta name="twitter:image" content="./assets/images/og-preview.png" />
+  <title>Google UI Clone</title>
+  <link rel="shortcut icon" href="./assets/images/favicon.png" type="image/png">
+  <link rel="stylesheet" href="./assets/styles/reset.css" />
+  <link rel="stylesheet" href="./assets/styles/partials/header.css" />
+  <link rel="stylesheet" href="./assets/styles/partials/main.css" />
+  <link rel="stylesheet" href="./assets/styles/partials/footer.css" />
+  <link rel="stylesheet" href="./assets/styles/responsivity.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap"
+    rel="stylesheet" />
+</head>
+
+<body>
+  <header id="page-header" role="heading">
+    <nav>
+      <a href="#">Gmail</a>
+      <a href="#">Images</a>
+      <a href="#" title="Google Apps">
+        <img src="./assets/images/dot-grid.svg" alt="Google Apps" />
+      </a>
+      <a href="#" title="Google Account">
+        <div class="profile-placeholder"></div>
+      </a>
+    </nav>
+  </header>
+
+  <main class="container" role="main">
+    <img src="./assets/images/google-logo.svg" alt="Google logo" />
+
+    <div class="input-wrapper">
+      <img src="./assets/images/search.svg" alt="Lupa" width="20" height="20" />
+      <label for="query" class="sr-only">O que deseja buscar?</label>
+      <input type="text" name="query" id="query" />
+
+      <div class="actions">
+        <a href="#">
+          <img src="./assets/images/keyboard.png"
+            alt="Ferramentas de inserção de texto"
+            title="Ferramentas de inserção de texto" width="19" height="11" />
+        </a>
+
+        <a href="#">
+          <img src="./assets/images/mic.png" alt="Pesquisa por voz"
+            title="Pesquisa por voz" width="16" height="16" />
+        </a>
+      </div>
+    </div>
+
+    <div class="btn-group">
+      <button>Pesquisa Google</button>
+      <button>Estou com sorte</button>
+    </div>
+  </main>
+
+  <footer id="page-footer" role="contentinfo">
+    <p>Brasil</p>
+    <hr>
+    <div class="anchor-group">
+      <ul>
+        <li>
+          <a href="#">Sobre</a>
+        </li>
+        <li>
+          <a href="#">Publicidade</a>
+        </li>
+        <li>
+          <a href="#">Negócios</a>
+        </li>
+        <li>
+          <a href="#">Como funciona a Pesquisa</a>
+        </li>
+      </ul>
+
+      <ul>
+        <li>
+          <a href="#">Privacidade</a>
+        </li>
+        <li>
+          <a href="#">Termos</a>
+        </li>
+        <li>
+          <a href="#">Configurações</a>
+        </li>
+      </ul>
+    </div>
+  </footer>
+
+</body>
+
+</html>
