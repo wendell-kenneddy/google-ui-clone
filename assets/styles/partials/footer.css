@@ -37,6 +37,14 @@
   flex-wrap: nowrap;
 }
 
+#page-footer .anchor-group a {
+  cursor: pointer;
+}
+
+#page-footer .anchor-group a:hover {
+  text-decoration: underline var(--footer-color);
+}
+
 #page-footer .anchor-group ul {
   display: flex;
   align-items: center;
