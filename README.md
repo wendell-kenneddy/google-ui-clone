@@ -6,7 +6,7 @@
 ![PRs](https://img.shields.io/badge/PRs-Welcome-brightgreen)
 ![Licença](https://img.shields.io/badge/license-MIT-brightgreen)
 
-![Resultado Final](./assets/images/preview.png)
+![Resultado Final](./web/assets/images/preview.png)
 
 ---
 
