@@ -1,4 +1,4 @@
-# ContactBook
+# Google UI Clone
 
 ![Autor](https://img.shields.io/badge/author-Wendell%20Kenneddy-brightgreen)
 ![Tecnologias utilizadas](https://img.shields.io/badge/techs-HTML5%20and%20CSS3-brightgreen)
